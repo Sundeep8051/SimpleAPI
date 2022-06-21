@@ -9,7 +9,7 @@ public class UnitTest1
     [Fact]
     public void GetReturnsMyName(){
         var returnValue = controller.Get();
-        Assert.Equal("Freezi", returnValue);
+        Assert.Equal("Freezing", returnValue);
     }
 
 
