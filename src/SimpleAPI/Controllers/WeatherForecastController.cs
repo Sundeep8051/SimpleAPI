@@ -14,6 +14,7 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public string Get()
     {
+        //modified the actual code just for demo purpose
         return Summaries.First().ToString();
     }
 }
